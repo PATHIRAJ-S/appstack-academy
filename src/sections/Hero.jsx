@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, Code, Laptop, Award, UserCheck, Sparkles, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, Code, Laptop, UserCheck, Sparkles, CheckCircle2 } from 'lucide-react';
 import Button from '../components/Button';
 import { useEnquiry } from '../context/EnquiryContext';
 
@@ -16,7 +16,7 @@ const Hero = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-          
+
           {/* Left Side: Hero Text */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -73,7 +73,7 @@ const Hero = () => {
               </div>
               <div className="flex items-center justify-center lg:justify-start gap-1.5">
                 <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
-                <span>QR Verification</span>
+                <span>Career Support</span>
               </div>
             </div>
           </motion.div>
@@ -94,7 +94,7 @@ const Hero = () => {
                   className="w-full h-full object-cover object-center"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
-                
+
                 <div className="absolute bottom-6 left-6 right-6 text-white">
                   <span className="px-2.5 py-1 rounded bg-[#2563EB] text-[11px] font-bold uppercase tracking-wider">
                     Interactive Campus
@@ -134,20 +134,7 @@ const Hero = () => {
                 </div>
               </motion.div>
 
-              {/* Floating Card 3: Certificate */}
-              <motion.div
-                animate={{ y: [0, -6, 0] }}
-                transition={{ duration: 3.8, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
-                className="absolute -bottom-6 -left-4 sm:-left-6 bg-white/90 backdrop-blur-md p-3.5 rounded-2xl border border-slate-200/80 shadow-xl flex items-center gap-3 hidden sm:flex"
-              >
-                <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center font-bold">
-                  <Award className="w-5 h-5" />
-                </div>
-                <div>
-                  <h4 className="text-xs font-bold text-[#0F172A]">Verifiable Certificate</h4>
-                  <p className="text-[11px] text-[#64748B]">QR Authenticated</p>
-                </div>
-              </motion.div>
+
 
               {/* Floating Card 4: Career Support */}
               <motion.div

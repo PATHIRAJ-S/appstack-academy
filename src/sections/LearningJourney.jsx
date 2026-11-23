@@ -31,8 +31,8 @@ const steps = [
   {
     number: "05",
     icon: Award,
-    title: "Get QR-Verified Certification",
-    description: "Complete your evaluation and receive an industry-recognized AppStack Certificate with online verification."
+    title: "Earn Course Certification",
+    description: "Complete your evaluation and receive an industry-recognized AppStack Academy completion certificate."
   },
   {
     number: "06",

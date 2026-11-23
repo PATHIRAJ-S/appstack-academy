@@ -1,7 +1,7 @@
 export const statsData = [
   {
-    value: "1,200+",
-    numericValue: 1200,
+    value: "120+",
+    numericValue: 120,
     label: "Students Trained",
     description: "Practical learners across all tech tracks",
     iconName: "Users"
@@ -14,22 +14,22 @@ export const statsData = [
     iconName: "BookOpen"
   },
   {
-    value: "850+",
-    numericValue: 850,
+    value: "50+",
+    numericValue: 50,
     label: "Projects Built",
     description: "Real-world portfolio projects",
     iconName: "FolderGit2"
   },
   {
-    value: "950+",
-    numericValue: 950,
+    value: "120+",
+    numericValue: 120,
     label: "Certificates Awarded",
-    description: "QR-verifiable credentials",
+    description: "Course completion credentials",
     iconName: "Award"
   },
   {
-    value: "340+",
-    numericValue: 340,
+    value: "50+",
+    numericValue: 50,
     label: "Internships Completed",
     description: "Hands-on team project experience",
     iconName: "Briefcase"
