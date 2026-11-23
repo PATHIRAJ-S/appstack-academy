@@ -170,7 +170,9 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500">Phone Support</h4>
-                    <p className="text-sm font-bold text-[#0F172A] mt-0.5">+91 98765 43210</p>
+                    <a href="tel:+919500919946" className="text-sm font-bold text-[#0F172A] mt-0.5 hover:text-[#2563EB] transition-colors block">
+                      +91 95009 19946
+                    </a>
                     <p className="text-xs text-slate-500">Mon - Sat: 9:00 AM - 7:00 PM IST</p>
                   </div>
                 </div>
@@ -181,7 +183,9 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500">WhatsApp Desk</h4>
-                    <p className="text-sm font-bold text-[#0F172A] mt-0.5">+91 98765 43210</p>
+                    <a href="https://wa.me/919500919946" target="_blank" rel="noopener noreferrer" className="text-sm font-bold text-[#0F172A] mt-0.5 hover:text-emerald-600 transition-colors block">
+                      +91 95009 19946
+                    </a>
                     <p className="text-xs text-slate-500">Instant chat & course brochure request</p>
                   </div>
                 </div>
@@ -330,7 +334,7 @@ const Contact = () => {
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="+91 98765 43210"
+                        placeholder="+91 95009 19946"
                         disabled={isSubmitting}
                         className={`w-full px-4 py-3 rounded-xl border text-sm bg-white focus:outline-none focus:ring-2 transition-all disabled:opacity-60 disabled:cursor-not-allowed ${errors.phone
                           ? 'border-red-500 focus:ring-red-200'

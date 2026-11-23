@@ -139,22 +139,22 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <Phone className="w-4 h-4 text-blue-400 shrink-0 mt-1" />
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919500919946"
                   className="hover:text-blue-400 transition-colors"
                 >
-                  +91 98765 43210
+                  +91 95009 19946
                 </a>
               </li>
 
               <li className="flex items-start gap-3">
                 <MessageSquare className="w-4 h-4 text-emerald-400 shrink-0 mt-1" />
                 <a
-                  href="https://wa.me/919876543210"
+                  href="https://wa.me/919500919946"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-emerald-400 transition-colors"
                 >
-                  WhatsApp: +91 98765 43210
+                  WhatsApp: +91 95009 19946
                 </a>
               </li>
 
