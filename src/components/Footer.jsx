@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Code2, Phone, Mail, MapPin, MessageSquare, ArrowUpRight, ShieldCheck } from 'lucide-react';
+import { Phone, Mail, MapPin, MessageSquare, ArrowUpRight, ShieldCheck } from 'lucide-react';
+import AppStackLogo from '../assets/appstack-logo-white.png';
 
 const Footer = () => {
   return (
@@ -10,13 +11,12 @@ const Footer = () => {
 
           {/* Column 1: Brand Info */}
           <div className="lg:col-span-2 space-y-4">
-            <Link to="/" className="flex items-center gap-2.5">
-              <div className="w-10 h-10 rounded-xl bg-brand-gradient flex items-center justify-center text-white shadow-md">
-                <Code2 className="w-6 h-6" />
-              </div>
-              <span className="font-extrabold text-xl tracking-tight text-white">
-                APPSTACK <span className="text-[#06B6D4]">ACADEMY</span>
-              </span>
+            <Link to="/" className="inline-block transition-opacity hover:opacity-90">
+              <img
+                src={AppStackLogo}
+                alt="AppStack Academy Logo"
+                className="h-11 sm:h-12 w-auto object-contain"
+              />
             </Link>
 
             <p className="text-sm font-semibold text-cyan-400">
