@@ -374,7 +374,7 @@ export default async function handler(req, res) {
     const smtpPass = process.env.SMTP_PASS ? process.env.SMTP_PASS.replace(/\s+/g, '') : '';
     const smtpHost = process.env.SMTP_HOST || 'smtp.gmail.com';
     const smtpPort = Number(process.env.SMTP_PORT) || 465;
-    const contactReceiver = process.env.CONTACT_RECEIVER?.trim() || 'admissions@appstackacademy.com';
+    const contactReceiver = process.env.CONTACT_RECEIVER?.trim() || 'appstackacademy@gmail.com';
 
     if (!smtpUser || !smtpPass) {
       console.error(

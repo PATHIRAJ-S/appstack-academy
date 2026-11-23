@@ -196,7 +196,9 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500">Email Admissions</h4>
-                    <p className="text-sm font-bold text-[#0F172A] mt-0.5">admissions@appstackacademy.com</p>
+                    <a href="mailto:appstackacademy@gmail.com" className="text-sm font-bold text-[#0F172A] mt-0.5 hover:text-[#7C3AED] transition-colors block">
+                      appstackacademy@gmail.com
+                    </a>
                     <p className="text-xs text-slate-500">24-hour response time guarantee</p>
                   </div>
                 </div>
