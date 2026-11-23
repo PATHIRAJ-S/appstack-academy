@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, MessageSquare, ArrowUpRight, ShieldCheck } from 'lucide-react';
-import AppStackLogo from '../assets/appstack-logo-white.png';
+import AppStackLogo from '../assets/appstack-logo-trimmed.png';
 
 const Footer = () => {
   return (
@@ -11,11 +11,11 @@ const Footer = () => {
 
           {/* Column 1: Brand Info */}
           <div className="lg:col-span-2 space-y-4">
-            <Link to="/" className="inline-block transition-opacity hover:opacity-90">
+            <Link to="/" className="inline-flex items-center bg-white px-3.5 py-2 rounded-xl shadow-md border border-slate-700/30 hover:bg-slate-50 transition-all">
               <img
                 src={AppStackLogo}
                 alt="AppStack Academy Logo"
-                className="h-11 sm:h-12 w-auto object-contain"
+                className="h-9 sm:h-10 w-auto object-contain"
               />
             </Link>
 
