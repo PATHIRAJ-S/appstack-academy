@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, MessageSquare, ArrowUpRight, ShieldCheck } from 'lucide-react';
+import { Phone, Mail, MapPin, MessageSquare, ShieldCheck } from 'lucide-react';
 import APLogo from '../assets/AP-Logo.png';
 
 const Footer = () => {
@@ -83,23 +83,8 @@ const Footer = () => {
               <li>
                 <Link to="/courses" className="hover:text-white transition-colors">Courses</Link>
               </li>
-              {/*   <li>
-                <Link to="/student-projects" className="hover:text-white transition-colors">Student Projects</Link>
-              </li>
-              <li>
-                <Link to="/internship" className="hover:text-white transition-colors">Internship Program</Link>
-              </li> */}
-              <li>
-                <Link to="/testimonials" className="hover:text-white transition-colors">Testimonials</Link>
-              </li>
               <li>
                 <Link to="/contact" className="hover:text-white transition-colors">Contact</Link>
-              </li>
-              <li>
-                <Link to="/feedback" className="hover:text-white transition-colors flex items-center gap-1.5">
-                  <span>Student Feedback</span>
-                  <ArrowUpRight className="w-3 h-3 text-purple-400" />
-                </Link>
               </li>
             </ul>
           </div>
@@ -182,7 +167,6 @@ const Footer = () => {
           <p>© 2026 AppStack Academy. All Rights Reserved.</p>
           <div className="flex items-center gap-6">
             <Link to="/certificate-verification" className="hover:text-slate-300 transition-colors">Certificate Verification</Link>
-            <Link to="/feedback" className="hover:text-slate-300 transition-colors">Student Review Form</Link>
             <Link to="/contact" className="hover:text-slate-300 transition-colors">Admissions Desk</Link>
           </div>
         </div>
